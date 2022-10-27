@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxi Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function btnfun() {
+            document.getElementById("btn").innerHTML = 'Thank You, <br> Your Booking Confirmed';
+        }
+    </script>
+</head>
+<body>
+    <div>
+        <h1>Taxi Booking Form</h1>
+        <form>
+            <!-- Current Place -->
+            <label for="from">From:</label>
+            <input type="text" id="from" name="from" placeholder="Start"><br>
+            <!-- Destination Place -->
+            <label for="to">To</label>
+            <input type="text" id="to" name="from" placeholder="End"><br>
+            <!--cab Size-->
+            <label for="mini">Cabs Size</label><br>
+            <label for="mini">Mini:</label>
+            <input type="radio" id="mini" name="cabsize" value="Mini">
+            <label for="Sedan">Sedan:</label>
+            <input type="radio" id="Sedan" name="cabsize" value="Sedan">
+            <label for="jeep">Jeep:</label>
+            <input type="radio" id="jeep" name="cabsize" value="Jeep">
+            <br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" >
+            <label for="time">Time:</label>
+            <input type="time" id="time"><br><br>
+            <button type="button" onclick="btnfun();">Book Now</button>
+        </form>
+        <p id="btn"></p>
+    </div>
+</body>
+</html>

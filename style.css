@@ -1,0 +1,27 @@
+body{
+    background-color: cadetblue;
+    font-family: monospace;
+}
+div{
+    background-color: aquamarine;
+    padding: 20px;
+    padding-top: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 20px black;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+}
+div h1{
+    text-align: center;
+    text-shadow: 0px 0px 3px ;
+
+}
+button{
+    background-color: cadetblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+button:hover{
+    text-decoration: underline;
+}
